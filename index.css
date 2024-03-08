@@ -5,7 +5,9 @@
 }
 
 :root {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Urbanist', sans-serif;
+  font-style: normal;
+  font-optical-sizing: auto;
   line-height: 1.6;
   letter-spacing: 0.2px;
   font-weight: 400;
