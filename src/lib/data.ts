@@ -63,9 +63,8 @@ export const experiences = [
     name: 'The Stella Way Consulting',
     description: [
       'Transformed a cluttered website into a sleek and cohesive platform, resulting in a 2x surge in site traffic and a substantial increase in conversions.',
-      'Implemented intuitive navigation and visually appealing layouts, leading to a 60% boost in user engagement and a 50% decrease in bounce rates.',
-      'Facilitated seamless communication in English and Spanish, fostering a collaborative environment that enriched both project outcomes and client language skills.',
-      'Redesigned content display methods, improving readability and driving a 70% increase in content interaction and retention rates.',
+      'Implemented intuitive navigation and visually appealing layouts, boosting user engagement by 60%.',
+      'Facilitated effective communication and collaboration in English and Spanish with the client, contributing to successful project delivery.',
       'Employed advanced techniques to enhance website performance, resulting in a 3x faster loading speed and a 40% reduction in page abandonment.',
     ],
   },
