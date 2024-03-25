@@ -1,0 +1,40 @@
+.dialogContent {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.navigationBtn {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+  color: var(--secondary);
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  border-radius: 100%;
+}
+
+.navigationBtn:hover {
+  background-color: var(--button-tertiary-hover);
+  transform: scale(1.1);
+}
+
+.navBtn {
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+
+  font-weight: 500;
+  color: var(--secondary);
+  transition: 0.2s ease-in-out all;
+}
+
+.navBtn:hover {
+  color: var(--primary);
+}

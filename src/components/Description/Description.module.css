@@ -1,0 +1,44 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.date {
+  width: 250px;
+  font-style: italic;
+  color: var(--secondary);
+}
+
+.jobDescription {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.companyDescription {
+  font-weight: 500;
+  color: var(--badge-text);
+}
+
+.companyDescription p:nth-child(2) {
+  color: var(--secondary);
+}
+
+.rolDescription {
+  max-width: 79ch;
+  color: var(--primary);
+}
+
+.companyDescription p:nth-child(2) {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+@media (max-width: 997px) {
+  .container {
+    flex-direction: column;
+  }
+}

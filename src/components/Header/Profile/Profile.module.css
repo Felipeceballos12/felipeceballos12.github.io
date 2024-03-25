@@ -1,0 +1,46 @@
+.professionContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 16px;
+  padding-left: 0;
+}
+
+.photo {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.myName {
+  font-size: 0.889rem;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.profession {
+  font-size: 0.778rem;
+  font-weight: 400;
+  line-height: 1.8;
+  text-align: left;
+  color: var(--secondary);
+}
+
+@media (min-width: 876px) and (max-width: 1440px) {
+  .professionContainer {
+    padding-left: 0;
+  }
+
+  .photo {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+@media (max-width: 368px) {
+  .me {
+    display: none;
+  }
+}

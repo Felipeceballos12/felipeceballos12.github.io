@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  position: sticky;
+  z-index: 2;
+  top: 0px;
+  background: var(--header-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  padding: 18px 24px;
+}
+
+@media (min-width: 1024px) and (max-width: 1269px) {
+  .header {
+    width: auto;
+  }
+}

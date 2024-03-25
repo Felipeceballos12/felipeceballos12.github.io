@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 16px;
+  padding: 20px;
+  background-color: var(--background-tertiary);
+}
+
+.name {
+  font-weight: 500;
+}

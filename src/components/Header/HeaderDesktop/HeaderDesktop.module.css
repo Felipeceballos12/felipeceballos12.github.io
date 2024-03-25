@@ -1,0 +1,50 @@
+.headerDesktopContainer {
+  max-width: 800px;
+  display: flex;
+  flex: 1;
+}
+
+.sectionsContainer {
+  display: flex;
+  gap: 32px;
+}
+
+.toggleContainer {
+  align-self: center;
+}
+
+.toggleBtn {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--secondary);
+  border: none;
+  background-color: transparent;
+  border-radius: 100%;
+}
+
+.toggleBtn:hover {
+  background-color: var(--button-tertiary-hover);
+}
+
+@media (max-width: 875px) {
+  .headerDesktopContainer {
+    display: none;
+  }
+}
+
+@media (min-width: 875px) and (max-width: 1440px) {
+  .header {
+    width: auto;
+  }
+
+  .headerDesktopContainer {
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

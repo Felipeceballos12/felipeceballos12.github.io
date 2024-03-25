@@ -1,0 +1,79 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.imageCard {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.titleAndBtnContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.titleCard {
+  color: var(--primary);
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.projectLink {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: var(--secondary);
+  border-bottom: 1px solid var(--secondary);
+}
+
+.projectLink:hover {
+  transform: scale(1.05);
+}
+
+.descriptionCard {
+  color: var(--primary);
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.badgeContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.badge {
+  display: inline-block;
+  height: auto;
+  border-radius: 14px;
+  padding: 4px 12px;
+  background-color: var(--badge-bg);
+}
+
+.badgeText {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  color: var(--badge-text);
+}
+
+@media (max-width: 875px) {
+  .imageCard {
+    width: 100%;
+    height: 326px;
+  }
+}
+
+@media (max-width: 399px) {
+  .imageCard {
+    height: auto;
+  }
+}

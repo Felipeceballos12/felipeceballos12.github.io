@@ -1,0 +1,116 @@
+#root {
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  width: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border-radius: 0.667rem; */
+  padding: 64px 32px;
+}
+
+.content > :not(:first-child) {
+  padding-top: 120px;
+}
+
+.content {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+  align-self: center;
+}
+
+.home {
+  align-items: center;
+}
+
+.badge {
+  width: 155px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  background-color: var(--badge-bg);
+  border-radius: 20px;
+  padding: 0 12px;
+  gap: 8px;
+}
+
+.ellipse {
+  width: 6px;
+  height: 6px;
+  background-color: var(--badge-text);
+  border-radius: 100%;
+}
+
+.badge span {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.8;
+  color: var(--badge-text);
+}
+
+.heading {
+  text-align: center;
+}
+
+.secondHeading {
+  color: var(--secondary);
+  margin-top: 4px;
+}
+
+.secondTitle {
+  font-size: 26px;
+}
+
+.introductionText {
+  max-width: 79ch;
+  text-align: center;
+}
+
+.callActionContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.callAction {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+  border-radius: 30px;
+  background-color: var(--primary);
+  gap: 8px;
+  color: var(--background-secondary);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  transition-duration: 0.5s;
+}
+
+.callAction:hover {
+  transform: scale(1.1);
+  transition-duration: 500ms;
+}
+
+@media (max-width: 875px) {
+  .wrapper {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  main {
+    padding: 1rem 0.5rem;
+  }
+}

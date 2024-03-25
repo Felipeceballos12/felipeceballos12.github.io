@@ -1,0 +1,12 @@
+.SkillsContainer {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
+  grid-template-rows: repeat(2, minmax(0px, 1fr));
+  gap: 4px;
+}
+
+@media (max-width: 897px) {
+  .SkillsContainer {
+    grid-template-columns: repeat(1, minmax(0px, 1fr));
+  }
+}

@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.separatorRoot {
+  background-color: var(--background-tertiary);
+}
+.separatorRoot[data-orientation='horizontal'] {
+  height: 1px;
+  width: 100%;
+}
+.separatorRoot[data-orientation='vertical'] {
+  height: 100%;
+  width: 1px;
+}
