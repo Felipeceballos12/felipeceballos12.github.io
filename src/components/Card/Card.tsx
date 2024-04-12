@@ -33,7 +33,7 @@ export default function Card({
             className={styles.projectLink}
             target="_blank"
           >
-            View Code
+            View {name === 'MitadMitad' ? 'Prototype' : 'Code'}
             <OpenInMenu width={14} height={14} />
           </a>
         </div>
