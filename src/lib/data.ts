@@ -6,20 +6,21 @@ import vethouse from '../assets/vethouse.webp';
 export const projects = [
   {
     id: crypto.randomUUID(),
-    name: 'Musicapp',
-    image: musicapp,
-    description: 'Web Music player using Spotify API',
-    stack: ['Expo', 'React Native', 'React', 'React Navigation'],
-    link: 'https://github.com/Felipeceballos12/musicapp',
-  },
-  {
-    id: crypto.randomUUID(),
     name: 'MitadMitad',
     image: mitadmitad,
     description:
       'Prototype for a restaurant bill splitter application',
     stack: ['Figma'],
     link: 'https://www.figma.com/proto/FfkYq5JDGuyJTESF59D9xP/MitadMitad?type=design&node-id=324-2620&t=RVpKgTQrXmbMtbGq-0&scaling=min-zoom&page-id=324%3A2619&starting-point-node-id=324%3A2620',
+  },
+  {
+    id: crypto.randomUUID(),
+    name: 'Musicapp',
+    image: musicapp,
+    description:
+      "Web Music player using Spotify API, with navigation structure inspired by BlueSky's code.",
+    stack: ['Expo', 'React Native', 'React', 'React Navigation'],
+    link: 'https://github.com/Felipeceballos12/musicapp',
   },
   {
     id: crypto.randomUUID(),
@@ -46,14 +47,12 @@ export const experiences = [
     endDate: 'Present',
     rol: 'FrontEnd Developer',
     name: 'Autovisas',
-    /* description: [
-      `Engaged in executing studies, trial runs with users,
-      brainstorming, sketching blueprints, and crafting refined
-      user experiences and user interfaces for iOS, Android, and
-      the Web. Closely partnering with engineers, product
-      supervisors, and important personnel. Designing experiences
-      that are guided by data and centered on the user`,
-    ], */
+    description: [
+      'Initiated the Autovisas project by establishing the repository and its structure, setting a foundational framework for file organization that became integral to our development process.',
+      'Developed the first MVP for AutoVisas using Expo, React Native, and React, focusing on operational efficiency and innovation.',
+      'Design and develop mockups for AutoVisas using Figma.',
+      'Restored login functionalities using Kubernetes after an outage, leading the recovery effort.',
+    ],
   },
   {
     id: crypto.randomUUID(),
