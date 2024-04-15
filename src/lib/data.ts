@@ -50,7 +50,7 @@ export const experiences = [
     description: [
       'Initiated the Autovisas project by establishing the repository and its structure, setting a foundational framework for file organization that became integral to our development process.',
       'Developed the first MVP for AutoVisas using Expo, React Native, and React, focusing on operational efficiency and innovation.',
-      'Design and develop mockups for AutoVisas using Figma.',
+      'Designed and developed mockups for AutoVisas using Figma.',
       'Restored login functionalities using Kubernetes after an outage, leading the recovery effort.',
     ],
   },
