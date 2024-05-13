@@ -30,11 +30,18 @@ function InnerApp() {
             </div>
 
             <p className="introductionText">
-              I'm Felipe Ceballos, a Frontend Developer with 3 years
-              of experience. I specialise in JavaScript, TypeScript,
-              and React to build high-quality web solutions. I'm also
-              skilled in React Native for versatile web and mobile
-              experiences. Let's create something great together!
+              I’m Felipe Ceballos, a Frontend Developer with over 2
+              years of experience, specialised in JavaScript,
+              TypeScript, and React. I have designed and implemented
+              high-quality web solutions, as well as complex mobile
+              applications using React Native and Expo. This dual
+              competency allows me to seamlessly integrate advanced
+              functionalities between web and mobile platforms.
+              Additionally, my experience spans a wide range of
+              technologies, including Git, HTML, CSS, Figma, UI, UX,
+              NodeJS, Jest, Testing Library, Python, Kubernetes,
+              Django, and MongoDB. Let's create something great
+              together!
             </p>
 
             <div className="callActionContainer">

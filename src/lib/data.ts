@@ -48,10 +48,11 @@ export const experiences = [
     rol: 'FrontEnd Developer',
     name: 'Autovisas',
     description: [
-      'Initiated the Autovisas project by establishing the repository and its structure, setting a foundational framework for file organization that became integral to our development process.',
-      'Developed the first MVP for AutoVisas using Expo, React Native, and React, focusing on operational efficiency and innovation.',
-      'Designed and developed mockups for AutoVisas using Figma.',
-      'Restored login functionalities using Kubernetes after an outage, leading the recovery effort.',
+      'Built the first MVP for AutoVisas using Expo, React Native, React Navigation and React, focusing on operational efficiency and innovation.',
+      'Led the UI/UX design efforts for AutoVisas, utilising Figma to create and refine high-fidelity prototypes.',
+      'Repaired login functionalities using Kubernetes after an outage, leading the recovery effort.',
+      'Built functional testing using Jest and Testing Library.',
+      'Gained exposure to key technologies such as Kubernetes, Jenkins, AWS, and Kanban in the project environment.',
     ],
   },
   {
