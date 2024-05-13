@@ -44,7 +44,7 @@ export const experiences = [
   {
     id: crypto.randomUUID(),
     startDate: 'Jul 2022',
-    endDate: 'Present',
+    endDate: 'April 2024',
     rol: 'FrontEnd Developer',
     name: 'Autovisas',
     description: [
@@ -62,6 +62,7 @@ export const experiences = [
     rol: 'Freelance Web Developer',
     name: 'The Stella Way Consulting',
     description: [
+      'Redesigned and built a website using Zoho CRM',
       'Transformed a cluttered website into a sleek and cohesive platform, resulting in a 2x surge in site traffic and a substantial increase in conversions.',
       'Implemented intuitive navigation and visually appealing layouts, boosting user engagement by 60%.',
       'Facilitated effective communication and collaboration in English and Spanish with the client, contributing to successful project delivery.',
