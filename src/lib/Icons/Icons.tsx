@@ -13,6 +13,8 @@ import {
   SiFigma,
   SiCss3,
   SiHtml5,
+  SiMongodb,
+  SiAmazonaws,
 } from '@icons-pack/react-simple-icons';
 
 export {
@@ -30,4 +32,6 @@ export {
   SiFigma,
   SiCss3,
   SiHtml5,
+  SiMongodb,
+  SiAmazonaws,
 };

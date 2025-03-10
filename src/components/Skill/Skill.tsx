@@ -13,6 +13,8 @@ import {
   SiFigma,
   SiCss3,
   SiHtml5,
+  SiAmazonaws,
+  SiMongodb,
 } from '../../lib/Icons/Icons';
 
 export type SkillIcons =
@@ -27,7 +29,9 @@ export type SkillIcons =
   | 'Figma'
   | 'CSS'
   | 'HTML'
-  | 'NodeJS';
+  | 'NodeJS'
+  | 'AWS'
+  | 'MongoDB';
 
 export function Skill({ name }: { name: SkillIcons }) {
   const mapIconComponent = {
@@ -43,6 +47,8 @@ export function Skill({ name }: { name: SkillIcons }) {
     Figma: SiFigma,
     CSS: SiCss3,
     HTML: SiHtml5,
+    AWS: SiAmazonaws,
+    MongoDB: SiMongodb,
   };
 
   const Icon = mapIconComponent[name];

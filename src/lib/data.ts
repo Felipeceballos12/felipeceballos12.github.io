@@ -8,8 +8,7 @@ export const projects = [
     id: crypto.randomUUID(),
     name: 'MitadMitad',
     image: mitadmitad,
-    description:
-      'Prototype for a restaurant bill splitter application',
+    description: 'Prototype for a restaurant bill splitter application',
     stack: ['Figma'],
     link: 'https://www.figma.com/proto/FfkYq5JDGuyJTESF59D9xP/MitadMitad?type=design&node-id=324-2620&t=RVpKgTQrXmbMtbGq-0&scaling=min-zoom&page-id=324%3A2619&starting-point-node-id=324%3A2620',
   },
@@ -43,6 +42,21 @@ export const projects = [
 export const experiences = [
   {
     id: crypto.randomUUID(),
+    startDate: 'June 2024',
+    endDate: 'Present',
+    rol: 'Freelance Web Developer',
+    name: 'Memorial Project',
+    description: [
+      'Built a complex memorial website using only HTML, CSS and vanilla JavaScript with custom animations',
+      'Cut page load time from 4 minutes to 20 seconds by developing a custom image compression technique that shrunk files by 95% without quality loss',
+      'Developed responsive asset loading system that serves device-specific resources to minimise bandwidth',
+      'Used Intersection Observer API to load content only as users scroll into view, significantly improving site performance',
+      'Crafted intricate CSS animations & keyframes to bring memorial content to life with smooth, engaging transitions',
+      'Collaborated effectively through text-only communication, adapting to asynchronous workflow while maintaining quality',
+    ],
+  },
+  {
+    id: crypto.randomUUID(),
     startDate: 'Jul 2022',
     endDate: 'April 2024',
     rol: 'FrontEnd Developer',
@@ -63,7 +77,7 @@ export const experiences = [
     name: 'The Stella Way Consulting',
     description: [
       'Redesigned and built a website using Zoho CRM',
-      'Transformed a cluttered website into a sleek and cohesive platform, resulting in a 2x surge in site traffic and a substantial increase in conversions.',
+      `Transformed a cluttered website into a sleek and cohesive platform, resulting in a 2x surge in site traffic and a substantial increase in conversions.`,
       'Implemented intuitive navigation and visually appealing layouts, boosting user engagement by 60%.',
       'Facilitated effective communication and collaboration in English and Spanish with the client, contributing to successful project delivery.',
       'Employed advanced techniques to enhance website performance, resulting in a 3x faster loading speed and a 40% reduction in page abandonment.',

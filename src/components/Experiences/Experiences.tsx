@@ -13,10 +13,7 @@ export default function Experiences() {
       <h2>Experience</h2>
       <div className={styles.container}>
         {experiences.map(
-          (
-            { id, startDate, endDate, rol, name, description },
-            index
-          ) => {
+          ({ id, startDate, endDate, rol, name, description }, index) => {
             const isLastItem = index < experiences.length - 1;
 
             return (
@@ -29,10 +26,7 @@ export default function Experiences() {
                   description={description}
                 />
                 {isLastItem && (
-                  <Separator.Root
-                    className={styles.separatorRoot}
-                    decorative
-                  />
+                  <Separator.Root className={styles.separatorRoot} decorative />
                 )}
               </React.Fragment>
             );

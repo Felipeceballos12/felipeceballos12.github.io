@@ -24,25 +24,27 @@ function InnerApp() {
               <div className="ellipse"></div>
               <span>Available to work</span>
             </div>
-            <div className="heading">
-              <h1>Luis Felipe Ceballos Caicedo</h1>
-              <h1 className="secondHeading">Frontend Developer</h1>
+            <div className="introductionContent">
+              <div className="heading">
+                <h1>Luis Felipe Ceballos Caicedo</h1>
+                <h1 className="secondHeading">Frontend Developer</h1>
+              </div>
+              <div>
+                <p className="introductionText">
+                  I’m Felipe Ceballos, a Frontend developer with 3+ years of
+                  experience, specialised in JavaScript, TypeScript, and React.
+                  I have designed high-quality web solutions, as well as complex
+                  mobile applications using React Native and Expo. My work has
+                  cut load times by 90%, doubled site traffic, and significantly
+                  reduced page abandonment.
+                </p>
+                <p className="introductionText">
+                  From memorial websites to complex bill-splitting apps, I bring
+                  both technical expertise and creative design thinking to every
+                  project.
+                </p>
+              </div>
             </div>
-
-            <p className="introductionText">
-              I’m Felipe Ceballos, a Frontend Developer with over 2
-              years of experience, specialised in JavaScript,
-              TypeScript, and React. I have designed and implemented
-              high-quality web solutions, as well as complex mobile
-              applications using React Native and Expo. This dual
-              competency allows me to seamlessly integrate advanced
-              functionalities between web and mobile platforms.
-              Additionally, my experience spans a wide range of
-              technologies, including Git, HTML, CSS, Figma, UI, UX,
-              NodeJS, Jest, Testing Library, Python, Kubernetes,
-              Django, and MongoDB. Let's create something great
-              together!
-            </p>
 
             <div className="callActionContainer">
               <a

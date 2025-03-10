@@ -30,7 +30,7 @@
 
   font-family: 'Urbanist', sans-serif;
   font-size: 18px;
-  line-height: 1.8;
+  line-height: 1.6;
   font-weight: 400;
 
   color-scheme: light;
@@ -74,7 +74,7 @@
 h1 {
   font-size: 40px;
   font-weight: 600;
-  line-height: 60px;
+  line-height: 50px;
   color: var(--primary);
 }
 

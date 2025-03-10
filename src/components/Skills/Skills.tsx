@@ -15,6 +15,8 @@ const skills: SkillIcons[] = [
   'Figma',
   'CSS',
   'HTML',
+  'AWS',
+  'MongoDB',
 ];
 
 export default function Skills() {
