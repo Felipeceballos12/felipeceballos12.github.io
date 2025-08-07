@@ -10,7 +10,7 @@ export const projects = [
     image: mitadmitad,
     description: 'Prototype for a restaurant bill splitter application',
     stack: ['Figma'],
-    link: 'https://www.figma.com/proto/FfkYq5JDGuyJTESF59D9xP/MitadMitad?type=design&node-id=324-2620&t=RVpKgTQrXmbMtbGq-0&scaling=min-zoom&page-id=324%3A2619&starting-point-node-id=324%3A2620',
+    link: 'https://www.figma.com/proto/kdRY0a0YVAcfCyzR9oo3tx/MitadMitad-Prototype?node-id=1-476&t=hCBETYiBDh0PGJDM-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A476',
   },
   {
     id: crypto.randomUUID(),
