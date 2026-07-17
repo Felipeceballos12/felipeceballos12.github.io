@@ -11,7 +11,7 @@ export default function Profile() {
       />
       <div className={styles.me}>
         <p className={styles.myName}>Felipe Ceballos</p>
-        <p className={styles.profession}>Frontend Developer</p>
+        <p className={styles.profession}>Software Developer</p>
       </div>
     </div>
   );

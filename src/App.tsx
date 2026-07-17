@@ -27,7 +27,7 @@ function InnerApp() {
             <div className="introductionContent">
               <div className="heading">
                 <h1>Luis Felipe Ceballos Caicedo</h1>
-                <h1 className="secondHeading">Frontend Developer</h1>
+                <h1 className="secondHeading">Software Developer</h1>
               </div>
               <div>
                 <p className="introductionText">

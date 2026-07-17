@@ -42,15 +42,25 @@ export const projects = [
 export const experiences = [
   {
     id: crypto.randomUUID(),
+    startDate: 'Aug 2025',
+    endDate: 'Mar 2026',
+    rol: 'Full Stack Developer',
+    name: 'Todos Comemos',
+    description: [],
+  },
+  {
+    id: crypto.randomUUID(),
     startDate: 'June 2024',
     endDate: 'Present',
     rol: 'Freelance Web Developer',
     name: 'Memorial Project',
     description: [
-      'Built a complex memorial website using only HTML, CSS and vanilla JavaScript with custom animations',
+      'Architected and deployed a complete, bilingual memorial web application, independently building a zero-dependency frontend and a robust Laravel REST API.',
+      //'Built a complex memorial website using only HTML, CSS and vanilla JavaScript with custom animations',
       'Cut page load time from 4 minutes to 20 seconds by developing a custom image compression technique that shrunk files by 95% without quality loss',
       'Developed responsive asset loading system that serves device-specific resources to minimise bandwidth',
-      'Used Intersection Observer API to load content only as users scroll into view, significantly improving site performance',
+      'Implemented an event-driven notification architecture with queued mailables, ensuring subscriber signups trigger emails without blocking API response times.',
+      //'Used Intersection Observer API to load content only as users scroll into view, significantly improving site performance',
       'Crafted intricate CSS animations & keyframes to bring memorial content to life with smooth, engaging transitions',
       'Collaborated effectively through text-only communication, adapting to asynchronous workflow while maintaining quality',
     ],
