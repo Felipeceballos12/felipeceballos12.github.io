@@ -46,7 +46,12 @@ export const experiences = [
     endDate: 'Mar 2026',
     rol: 'Full Stack Developer',
     name: 'Todos Comemos',
-    description: [],
+    description: [
+      "Developed and maintained the company's systems end-to-end (frontend and backend), keeping them stable and continuously improving them.",
+      'Built robust backend services, business logic, and API integrations using Ruby on Rails, Python (Django), and relational SQL databases (PostgreSQL).',
+      'Developed an automatic document-reading feature to speed up and automate internal processes.',
+      'Rolled out frontend improvements with Next.js and Meteor.js, improving the user experience and making the code easier to maintain.',
+    ],
   },
   {
     id: crypto.randomUUID(),
