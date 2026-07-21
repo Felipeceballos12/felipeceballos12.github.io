@@ -15,6 +15,12 @@ import {
   SiHtml5,
   SiAmazonaws,
   SiMongodb,
+  SiNextdotjs,
+  SiPhp,
+  SiLaravel,
+  SiRuby,
+  SiDjango,
+  SiPostgresql
 } from '../../lib/Icons/Icons';
 
 export type SkillIcons =
@@ -31,7 +37,13 @@ export type SkillIcons =
   | 'HTML'
   | 'NodeJS'
   | 'AWS'
-  | 'MongoDB';
+  | 'MongoDB'
+  | 'Next.js'
+  | 'PHP'
+  | 'Laravel'
+  | 'Ruby'
+  | 'Django'
+  | 'PostgreSQL';
 
 export function Skill({ name }: { name: SkillIcons }) {
   const mapIconComponent = {
@@ -49,6 +61,12 @@ export function Skill({ name }: { name: SkillIcons }) {
     HTML: SiHtml5,
     AWS: SiAmazonaws,
     MongoDB: SiMongodb,
+    'Next.js': SiNextdotjs,
+    PHP: SiPhp,
+    Laravel: SiLaravel,
+    Ruby: SiRuby,
+    Django: SiDjango,
+    'PostgreSQL': SiPostgresql
   };
 
   const Icon = mapIconComponent[name];

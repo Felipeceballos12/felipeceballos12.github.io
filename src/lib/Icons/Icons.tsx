@@ -15,6 +15,12 @@ import {
   SiHtml5,
   SiMongodb,
   SiAmazonaws,
+  SiNextdotjs,
+  SiPhp,
+  SiLaravel,
+  SiRuby,
+  SiDjango,
+  SiPostgresql
 } from '@icons-pack/react-simple-icons';
 
 export {
@@ -34,4 +40,10 @@ export {
   SiHtml5,
   SiMongodb,
   SiAmazonaws,
+  SiNextdotjs,
+  SiPhp,
+  SiLaravel,
+  SiRuby,
+  SiDjango,
+  SiPostgresql
 };

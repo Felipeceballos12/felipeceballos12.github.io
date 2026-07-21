@@ -5,18 +5,24 @@ import { SkillIcons, Skill } from '../Skill/Skill';
 
 const skills: SkillIcons[] = [
   'TypeScript',
-  'Expo',
+  'Next.js',
+  'PHP',
+  'Laravel',
+  'PostgreSQL',
+  'Ruby',
+  'Django',
   'React',
   'JavaScript',
   'Python',
   'Git',
+  'AWS',
   'C#',
   'Jest',
   'Figma',
   'CSS',
   'HTML',
-  'AWS',
   'MongoDB',
+  'Expo'
 ];
 
 export default function Skills() {
